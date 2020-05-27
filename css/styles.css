@@ -2,3 +2,8 @@ body {
   font-family: fantasy;
   text-align: center;
 }
+
+.button-class {
+  color: #000;
+  background-color: #808080;
+}

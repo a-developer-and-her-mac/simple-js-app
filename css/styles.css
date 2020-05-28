@@ -3,7 +3,25 @@ body {
   text-align: center;
 }
 
+ul {
+  list-style-type: none;
+}
+
+.app-title {
+  display: inline-block;
+}
+
 .button-class {
-  color: #000;
   background-color: #808080;
+  color: #000;
+  font-family: fantasy;
+  margin-right: 30px;
+  width: 40%;
+}
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }

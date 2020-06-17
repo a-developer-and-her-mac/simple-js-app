@@ -18,13 +18,14 @@ let pokemonRepository = (function() {
     ulElement.appendChild(listItem);
     listItem.appendChild(button);
     button.classList.add('button-class');
-    button.addEventListener('click', function(event) {
+    button.addEventListener('click', function(event) { // eslint-disable-line no-unused-vars
       showDetails(pokemon);
 
     })
 
   }
 
+  /* eslint no-console: ["error", { allow: ["warn", "error","log"] }] */
 
   function loadList() {
     return fetch(apiUrl).then(function(response) {
